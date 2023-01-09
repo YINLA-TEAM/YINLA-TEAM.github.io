@@ -1,3 +1,50 @@
 body {
     background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+#yinla_logo {
+    width: 50px;
+    border-radius: 10px;
+}
+
+#yinla_title {
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+.discord_tool {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#dc_name {
+    list-style-type: none;
+    justify-content: center;
+}
+
+#manifestor {
+    
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top:20px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
